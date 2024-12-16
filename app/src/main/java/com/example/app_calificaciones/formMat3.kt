@@ -25,10 +25,6 @@ class formMat3 : AppCompatActivity() {
         var chk2 = findViewById<CheckBox>(R.id.chk_mat32)
         var chk3 = findViewById<CheckBox>(R.id.chk_mat33)
         val nombre = intent.getStringExtra("nombre")
-        var puntosActuales = intent.getIntExtra("puntos",0)
-
-        var mensaje = findViewById<TextView>(R.id.lbl_mat3)
-        mensaje.text = nombre + " Puntos " + puntosActuales
 
         var puntos = 0
         if(chk1.isChecked && chk2.isChecked && chk3.isChecked){
@@ -44,7 +40,8 @@ class formMat3 : AppCompatActivity() {
             puntos = 1
         }
 
-        var puntosTotal = puntosActuales + puntos
+        var puntosActuales = intent.getIntExtra("puntosActual", 0)
+        val puntosTotal = puntos + puntosActuales
         val btnSiguiente = findViewById<Button>(R.id.btn_mat31)
         btnSiguiente.setOnClickListener {
             val res_mat3 = Intent(this, formMat4::class.java)

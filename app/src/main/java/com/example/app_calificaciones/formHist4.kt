@@ -40,7 +40,7 @@ class formHist4 : AppCompatActivity() {
             puntos = 1
         }
 
-        val puntosTotal = puntos
+        var puntosTotal = puntos + puntosActuales
         val btnSiguiente = findViewById<Button>(R.id.btn_his4)
         btnSiguiente.setOnClickListener {
             val res_his4 = Intent(this, formHist4::class.java)

@@ -30,11 +30,13 @@ class formIng3 : AppCompatActivity() {
             }
         }
 
+        var puntosActuales = intent.getIntExtra("puntosActual", 0)
+        var puntosTotal = puntos + puntosActuales
         val btnSiguiente = findViewById<Button>(R.id.btn_ing3)
         btnSiguiente.setOnClickListener {
             val resp = Intent(this, formIng4::class.java)
             resp.putExtra("nombre", nombre)
-            resp.putExtra("puntosActuales", puntos)
+            resp.putExtra("puntosActuales", puntosTotal)
             startActivity(resp)
         }
     }
