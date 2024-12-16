@@ -36,5 +36,33 @@ class Activity_Options : AppCompatActivity() {
             mat1.putExtra("nombre", nombre)
             startActivity(mat1)
         }
+
+        btnIngles.setOnClickListener {
+            val ing1 = Intent(this, formIng1::class.java)
+            ing1.putExtra("nombre", nombre)
+            startActivity(ing1)
+        }
+
+        btnInformatica.setOnClickListener {
+            val infor1 = Intent(this, formInfor1::class.java)
+            infor1.putExtra("nombre", nombre)
+            startActivity(infor1)
+        }
+        btnHistoria.setOnClickListener {
+            val his1 = Intent(this, formHist1::class.java)
+            his1.putExtra("nombre", nombre)
+            startActivity(his1)
+        }
+        btnMoviles.setOnClickListener {
+            val mov1 = Intent(this, formMovil1::class.java)
+            mov1.putExtra("nombre", nombre)
+            startActivity(mov1)
+        }
+
+        btnResultado.setOnClickListener {
+            val res1 = Intent(this, formRes1::class.java)
+            res1.putExtra("nombre", nombre)
+            startActivity(res1)
+        }
     }
 }

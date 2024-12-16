@@ -13,6 +13,9 @@
         android:theme="@style/Theme.APP_CALIFICACIONES"
         tools:targetApi="31">
         <activity
+            android:name=".formRes1"
+            android:exported="false" />
+        <activity
             android:name=".resMat"
             android:exported="false" />
         <activity

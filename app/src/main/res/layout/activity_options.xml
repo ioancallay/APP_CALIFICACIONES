@@ -87,11 +87,5 @@
             android:text="Resultado final"
             android:textColorLink="#2196F3" />
 
-        <Button
-            android:id="@+id/btn_preg2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Nuevo intento" />
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
