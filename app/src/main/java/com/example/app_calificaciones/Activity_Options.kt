@@ -31,7 +31,7 @@ class Activity_Options : AppCompatActivity() {
         val btnMoviles = findViewById<Button>(R.id.btn_moviles)
         val btnResultado = findViewById<Button>(R.id.btn_resultado)
 
-        btnResultado.setOnClickListener {
+        btnMatematicas.setOnClickListener {
             val mat1 = Intent(this, formMat1::class.java)
             mat1.putExtra("nombre", nombre)
             startActivity(mat1)

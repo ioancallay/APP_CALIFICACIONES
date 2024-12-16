@@ -20,28 +20,28 @@ class formMat1 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val mensaje = findViewById<TextView>(R.id.lbl_mensaje1)
+        var mensaje = findViewById<TextView>(R.id.lbl_mensaje1)
+
         val chk1 = findViewById<CheckBox>(R.id.chk_mat11)
         val chk2 = findViewById<CheckBox>(R.id.chk_mat12)
         val chk3 = findViewById<CheckBox>(R.id.chk_mat13)
-        var puntos = 0
         val nombre = intent.getStringExtra("nombre")
-
-        if(chk1.isChecked && chk2.isChecked){
-            puntos = 2
-        }else if(chk1.isChecked && chk3.isChecked){
-            puntos = 1
-        }else if(chk2.isChecked && chk3.isChecked){
-            puntos = 1
-        }else{
-            puntos = 0
+        mensaje.text = "1. " + nombre
+        val puntos = when {
+            chk1.isChecked && chk2.isChecked && chk3.isChecked -> 0
+            chk1.isChecked && chk2.isChecked -> 2
+            chk1.isChecked && chk3.isChecked -> 1
+            chk2.isChecked && chk3.isChecked -> 1
+            else -> 0
         }
 
         val btnSiguiente = findViewById<Button>(R.id.btn_mat11)
+
         btnSiguiente.setOnClickListener {
-            val total = Intent(this, formMat2::class.java)
-            total.putExtra("total", puntos)
-            total.putExtra("nombre", nombre)
+            val mat_res1 = Intent(this, formMat2::class.java)
+            mat_res1.putExtra("puntos", puntos)
+            mat_res1.putExtra("nombre", nombre)
+            startActivity(mat_res1)
         }
     }
 }

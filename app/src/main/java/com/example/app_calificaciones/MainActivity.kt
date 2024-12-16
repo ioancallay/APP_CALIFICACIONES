@@ -21,11 +21,10 @@ class MainActivity : AppCompatActivity() {
         }
         val btnIngresar = findViewById<Button>(R.id.btn_ingresar)
         val txtNombre = findViewById<EditText>(R.id.txt_nombre)
-        val nombre = intent.getStringExtra("nombre")
 
         btnIngresar.setOnClickListener {
             val formOpciones = Intent(this, Activity_Options::class.java)
-            formOpciones.putExtra("nombre", nombre)
+            formOpciones.putExtra("nombre", txtNombre.text.toString())
             startActivity(formOpciones)
         }
     }
