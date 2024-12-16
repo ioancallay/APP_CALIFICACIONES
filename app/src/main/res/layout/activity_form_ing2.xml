@@ -34,17 +34,18 @@
             android:text="Como se dice perro?" />
 
         <RadioGroup
+            android:id="@+id/rgRespuesta2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/rgTrue2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dog" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/rgFalse2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Doc" />

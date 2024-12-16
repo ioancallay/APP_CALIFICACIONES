@@ -34,17 +34,18 @@
             android:text="Como se dice mesa?" />
 
         <RadioGroup
+            android:id="@+id/rgRespuesta3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <RadioButton
-                android:id="@+id/radioButton5"
+                android:id="@+id/rgTrue3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Table" />
 
             <RadioButton
-                android:id="@+id/radioButton6"
+                android:id="@+id/rgFalse3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Messa" />

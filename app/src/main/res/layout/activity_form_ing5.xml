@@ -34,17 +34,18 @@
             android:text="Cómo se dice uno?" />
 
         <RadioGroup
+            android:id="@+id/rgRespuesta5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <RadioButton
-                android:id="@+id/radioButton9"
+                android:id="@+id/rgTrue5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Une" />
 
             <RadioButton
-                android:id="@+id/radioButton10"
+                android:id="@+id/rgFalse5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="One" />
