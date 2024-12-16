@@ -34,7 +34,7 @@
             android:text="¿Qué evento marcó el final de la Segunda Guerra Mundial?  " />
 
         <CheckBox
-            android:id="@+id/chhk_his41"
+            android:id="@+id/chk_his41"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="La rendición de Japón en 1945." />

@@ -52,7 +52,7 @@
             android:text="Un navegante que buscaba nuevas rutas hacia Asia." />
 
         <Button
-            android:id="@+id/bnt_his1"
+            android:id="@+id/btn_his1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Siguiente" />
