@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mat3">
+    tools:context=".formHist3">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -15,61 +15,46 @@
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuestionario historia"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView34"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView35"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-black"
-            android:text="Matemáticas"
-            android:textAlignment="center"
-            android:textColor="#2196F3"
-            android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Qué son los números reales?" />
+            android:text="¿Qué sucedió en la Revolución Mexicana?  " />
 
         <CheckBox
-            android:id="@+id/chk_suma"
+            android:id="@+id/chk_his31"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Suma" />
+            android:text="Fue un movimiento para buscar justicia social y tierras." />
 
         <CheckBox
-            android:id="@+id/shk_resta"
+            android:id="@+id/chk_his32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resta" />
+            android:text="Fue la guerra entre México y Estados Unidos." />
 
         <CheckBox
-            android:id="@+id/chk_multiplicacion"
+            android:id="@+id/chk_his33"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Multiplicación" />
-
-        <CheckBox
-            android:id="@+id/chk_division"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="División" />
-
-        <CheckBox
-            android:id="@+id/chk_decimal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Decimales" />
+            android:text="Emiliano Zapata y Pancho Villa fueron líderes destacados." />
 
         <Button
-            android:id="@+id/btn_preg1"
+            android:id="@+id/btn_his3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Siguiente" />
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,99 @@
         android:theme="@style/Theme.APP_CALIFICACIONES"
         tools:targetApi="31">
         <activity
+            android:name=".resMat"
+            android:exported="false" />
+        <activity
+            android:name=".resIng"
+            android:exported="false" />
+        <activity
+            android:name=".resInfor"
+            android:exported="false" />
+        <activity
+            android:name=".resHis"
+            android:exported="false" />
+        <activity
+            android:name=".resMov"
+            android:exported="false" />
+        <activity
+            android:name=".formMovil5"
+            android:exported="false" />
+        <activity
+            android:name=".formMovil4"
+            android:exported="false" />
+        <activity
+            android:name=".formMovil3"
+            android:exported="false" />
+        <activity
+            android:name=".formMovil2"
+            android:exported="false" />
+        <activity
+            android:name=".formMovil1"
+            android:exported="false" />
+        <activity
+            android:name=".formHist5"
+            android:exported="false" />
+        <activity
+            android:name=".formHist4"
+            android:exported="false" />
+        <activity
+            android:name=".formHist3"
+            android:exported="false" />
+        <activity
+            android:name=".formHist2"
+            android:exported="false" />
+        <activity
+            android:name=".formHist1"
+            android:exported="false" />
+        <activity
+            android:name=".formInfor5"
+            android:exported="false" />
+        <activity
+            android:name=".formInfor4"
+            android:exported="false" />
+        <activity
+            android:name=".formInfor3"
+            android:exported="false" />
+        <activity
+            android:name=".formInfor2"
+            android:exported="false" />
+        <activity
+            android:name=".formInfor1"
+            android:exported="false" />
+        <activity
+            android:name=".formIng5"
+            android:exported="false" />
+        <activity
+            android:name=".formIng4"
+            android:exported="false" />
+        <activity
+            android:name=".formIng3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".formIng2"
+            android:exported="false" />
+        <activity
+            android:name=".formIng1"
+            android:exported="false" />
+        <activity
+            android:name=".formMat5"
+            android:exported="false" />
+        <activity
+            android:name=".formMat4"
+            android:exported="false" />
+        <activity
+            android:name=".formMat3"
+            android:exported="false" />
+        <activity
+            android:name=".formMat2"
+            android:exported="false" />
+        <activity
+            android:name=".formMat1"
+            android:exported="false" />
+        <activity
             android:name=".mat5"
             android:exported="false" />
         <activity

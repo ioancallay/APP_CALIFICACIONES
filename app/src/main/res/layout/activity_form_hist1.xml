@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mat2">
+    tools:context=".formHist1">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -15,61 +15,46 @@
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuestionario historia"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView34"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView35"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-black"
-            android:text="Matemáticas"
-            android:textAlignment="center"
-            android:textColor="#2196F3"
-            android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cuáles de las siguientes opciones son números" />
+            android:text="¿Quién fue Cristóbal Colón?  " />
 
         <CheckBox
-            android:id="@+id/chk_num1"
+            android:id="@+id/chk_his11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="12.5" />
+            android:text="Un explorador que llegó a América en 1492." />
 
         <CheckBox
-            android:id="@+id/chk_num2"
+            android:id="@+id/chk_his12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1F52" />
+            android:text="El primer emperador de México." />
 
         <CheckBox
-            android:id="@+id/chk_num3"
+            android:id="@+id/chk_his13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="21" />
-
-        <CheckBox
-            android:id="@+id/chk_num4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="0.12" />
-
-        <CheckBox
-            android:id="@+id/chk_num5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="PI" />
+            android:text="Un navegante que buscaba nuevas rutas hacia Asia." />
 
         <Button
-            android:id="@+id/btn_preg2"
+            android:id="@+id/bnt_his1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Siguiente" />
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
