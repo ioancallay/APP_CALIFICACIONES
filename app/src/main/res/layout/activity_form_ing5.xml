@@ -50,14 +50,13 @@
                 android:layout_height="wrap_content"
                 android:text="One" />
 
+            <Button
+                android:id="@+id/btn_ing5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siguiente" />
+
         </RadioGroup>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_ing5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Siguiente"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="168dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
